@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="detect-win;diagonal-win-(right-to-left)" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/hp/Desktop/four-with-bot/features/detect-win.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I goto the game page" classname="detect-win;diagonal-win-(right-to-left)" time="13.172052824">
+        </testcase>
+        <testcase name="When I choose to play as two human players" classname="detect-win;diagonal-win-(right-to-left)" time="2.495628673">
+        </testcase>
+        <testcase name="And with two different names" classname="detect-win;diagonal-win-(right-to-left)" time="2.314692386">
+        </testcase>
+        <testcase name="And press the Börja spela-button" classname="detect-win;diagonal-win-(right-to-left)" time="1.026534623">
+        </testcase>
+        <testcase name="Then the game should start" classname="detect-win;diagonal-win-(right-to-left)" time="2.039520107">
+        </testcase>
+        <testcase name="When the first player plays 4 bricks in a diagonally (right to left)" classname="detect-win;diagonal-win-(right-to-left)" time="13.787991497">
+        </testcase>
+    </testsuite>
+</testsuites>
