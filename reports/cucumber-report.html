@@ -270,7 +270,7 @@ pre {
           <a class="navbar-brand">Cucumberjs Report</a>
           <div class="project-name visible-md visible-lg">rep-html</div>
           <div class="label-container">
-            <span class="label label-success" title=scenarios>Passed: 1</span>
+            <span class="label label-success" title=scenarios>Passed: 2</span>
             <span class="label label-danger" title=scenarios>Failed: 0</span>
           </div>
         </div>
@@ -279,7 +279,7 @@ pre {
 
     <div class="container">
 
-      <div class="generated-on">Wed May 01 2019 18:53:24 GMT+0200 (GMT+02:00)</div>
+      <div class="generated-on">Sat May 11 2019 20:38:56 GMT+0200 (GMT+02:00)</div>
 
       <div class="row">
         <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
@@ -303,10 +303,10 @@ pre {
                     <a data-toggle="collapse" href="#collapseFeaturerep_html0">
                         <i class="glyphicon glyphicon-chevron-right"></i>
                         <i class="glyphicon glyphicon-chevron-down"></i>
-                        <b>Feature:</b>Detect win
+                        <b>Feature:</b>Empty gameboard
                         <span class="label-container">
               <span class="label label-success"
-                                                         title="1 Scenarios Passed">1</span>
+                                                         title="2 Scenarios Passed">2</span>
               
               
               
@@ -319,7 +319,7 @@ pre {
             <div id="collapseFeaturerep_html0" class="panel-collapse collapse">
                 <div class="panel-body">
                     
-                    <div class="description">  As user I would like the app to detect all ways of winning (horizantal, vertical, diagonal in two directions).</div>
+                    <div class="description">The gameboard should be empty when game initiated</div>
                     
                     
                     <div class="panel panel-default">
@@ -337,12 +337,12 @@ pre {
                                         <div style="padding-right: 30px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
-                                            <b>Scenario:</b>Diagonal win (right to left)
+                                            <b>Scenario:</b>The gameboard should be empty when game initiated
                                         </div>
                                         <div>
                             <span class="label-container">
                               <span class="label label-success"
-                                                               title="6 Steps Passed">6</span>
+                                                               title="5 Steps Passed">5</span>
                               
                               
                               
@@ -370,11 +370,47 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">Given </span>
-                          <span> that I goto the game page</span>
+                          <span> that i navigate to the startpage</span>
                             
                           
                               <span class="step-duration">
-                               13s 172ms
+                               3s 728ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> I click on the spela button</span>
+                            
+                          
+                              <span class="step-duration">
+                               2s 21ms
                               </span>
                             
                          
@@ -406,83 +442,11 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">When </span>
-                          <span> I choose to play as two human players</span>
+                          <span> I fill out player details and click på Börja spela</span>
                             
                           
                               <span class="step-duration">
-                               2s 495ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> with two different names</span>
-                            
-                          
-                              <span class="step-duration">
-                               2s 314ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> press the Börja spela-button</span>
-                            
-                          
-                              <span class="step-duration">
-                               1s 26ms
+                               12s 141ms
                               </span>
                             
                          
@@ -514,11 +478,162 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">Then </span>
-                          <span> the game should start</span>
+                          <span> the game should initiate</span>
                             
                           
                               <span class="step-duration">
-                               2s 39ms
+                               2s 48ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> board shall be empty</span>
+                            
+                          
+                              <span class="step-duration">
+                               4s 30ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                
+                                
+                                <div class="tags">
+                                </div>
+                                
+                                <a data-toggle="collapse"
+                                   href="#collapseScenariorep_html0_1">
+                                    <div>
+
+                                        <div style="padding-right: 30px">
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                            <b>Scenario:</b>the number of move shall be 1
+                                        </div>
+                                        <div>
+                            <span class="label-container">
+                              <span class="label label-success"
+                                                               title="5 Steps Passed">5</span>
+                              
+                              
+                              
+                              
+                              
+                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseScenariorep_html0_1"
+                             class="panel-collapse collapse">
+                            <div class="panel-body">
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Given </span>
+                          <span> that i navigate to the startpage</span>
+                            
+                          
+                              <span class="step-duration">
+                               2s 784ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> I click on the spela button</span>
+                            
+                          
+                              <span class="step-duration">
+                               2s 40ms
                               </span>
                             
                          
@@ -550,11 +665,83 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">When </span>
-                          <span> the first player plays 4 bricks in a diagonally (right to left)</span>
+                          <span> I fill out player details and click på Börja spela</span>
                             
                           
                               <span class="step-duration">
-                               13s 787ms
+                               12s 144ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> the game should initiate</span>
+                            
+                          
+                              <span class="step-duration">
+                               2s 35ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> the number of move shall be 1</span>
+                            
+                          
+                              <span class="step-duration">
+                               2s 140ms
                               </span>
                             
                          
@@ -624,7 +811,7 @@ pre {
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Scenarios",
                                                             "failed" : 0,
-                                                            "passed" : 1,
+                                                            "passed" : 2,
                                                             "notdefined" : 0,
                                                             "pending" : 0,
                                                             "skipped" : 0,

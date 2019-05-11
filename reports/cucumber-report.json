@@ -1,89 +1,76 @@
 [
   {
-    "description": "  As user I would like the app to detect all ways of winning (horizantal, vertical, diagonal in two directions).",
+    "description": "The gameboard should be empty when game initiated",
     "elements": [
       {
-        "id": "detect-win;diagonal-win-(right-to-left)",
+        "id": "empty-gameboard;the-gameboard-should-be-empty-when-game-initiated",
         "keyword": "Scenario",
-        "line": 23,
-        "name": "Diagonal win (right to left)",
+        "line": 11,
+        "name": "The gameboard should be empty when game initiated",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that I goto the game page",
+            "name": "that i navigate to the startpage",
             "result": {
               "status": "passed",
-              "duration": 13172052824
+              "duration": 3728962068
             },
             "line": 5,
             "match": {
-              "location": "C:\\Users\\hp\\Desktop\\four-with-bot\\step-definitions\\detect-win.js:10"
+              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the spela button",
+            "result": {
+              "status": "passed",
+              "duration": 2021661007
+            },
+            "line": 6,
+            "match": {
+              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:16"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I choose to play as two human players",
+            "name": "I fill out player details and click på Börja spela",
             "result": {
               "status": "passed",
-              "duration": 2495628673
-            },
-            "line": 6,
-            "match": {
-              "location": "C:\\Users\\hp\\Desktop\\four-with-bot\\step-definitions\\detect-win.js:15"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "with two different names",
-            "result": {
-              "status": "passed",
-              "duration": 2314692386
+              "duration": 12141845577
             },
             "line": 7,
             "match": {
-              "location": "C:\\Users\\hp\\Desktop\\four-with-bot\\step-definitions\\detect-win.js:33"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "press the Börja spela-button",
-            "result": {
-              "status": "passed",
-              "duration": 1026534623
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\hp\\Desktop\\four-with-bot\\step-definitions\\detect-win.js:41"
+              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:24"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the game should start",
+            "name": "the game should initiate",
             "result": {
               "status": "passed",
-              "duration": 2039520107
+              "duration": 2048010795
             },
-            "line": 9,
+            "line": 8,
             "match": {
-              "location": "C:\\Users\\hp\\Desktop\\four-with-bot\\step-definitions\\detect-win.js:47"
+              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:42"
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "name": "the first player plays 4 bricks in a diagonally (right to left)",
+            "keyword": "Then ",
+            "name": "board shall be empty",
             "result": {
               "status": "passed",
-              "duration": 13787991497
+              "duration": 4030913982
             },
-            "line": 24,
+            "line": 12,
             "match": {
-              "location": "C:\\Users\\hp\\Desktop\\four-with-bot\\step-definitions\\detect-win.js:154"
+              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:51"
             }
           },
           {
@@ -91,11 +78,98 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1470782971
+              "duration": 105923099
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\hp\\Desktop\\four-with-bot\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "row\\four-with-bot1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "empty-gameboard;the-number-of-move-shall-be-1",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "the number of move shall be 1",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that i navigate to the startpage",
+            "result": {
+              "status": "passed",
+              "duration": 2784335421
+            },
+            "line": 5,
+            "match": {
+              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the spela button",
+            "result": {
+              "status": "passed",
+              "duration": 2040788753
+            },
+            "line": 6,
+            "match": {
+              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill out player details and click på Börja spela",
+            "result": {
+              "status": "passed",
+              "duration": 12144486928
+            },
+            "line": 7,
+            "match": {
+              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the game should initiate",
+            "result": {
+              "status": "passed",
+              "duration": 2035046959
+            },
+            "line": 8,
+            "match": {
+              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the number of move shall be 1",
+            "result": {
+              "status": "passed",
+              "duration": 2140960386
+            },
+            "line": 16,
+            "match": {
+              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 115350154
+            },
+            "hidden": true,
+            "match": {
+              "location": "row\\four-with-bot1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -103,11 +177,11 @@
         "type": "scenario"
       }
     ],
-    "id": "detect-win",
+    "id": "empty-gameboard",
     "keyword": "Feature",
     "line": 1,
-    "name": "Detect win",
+    "name": "Empty gameboard",
     "tags": [],
-    "uri": "C:/Users/hp/Desktop/four-with-bot/features/detect-win.feature"
+    "uri": "C:/Users/javad/Desktop/4 in row/four-with-bot1/features/Regler.feature"
   }
 ]
