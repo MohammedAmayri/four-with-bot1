@@ -5,15 +5,15 @@
             <property name="URI" value="C:/Users/javad/Desktop/4 in row/four-with-bot1/features/dumbot-vs-bot.feature">
             </property>
         </properties>
-        <testcase name="Given that I navigate to the game page" classname="dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games" time="3.572427784">
+        <testcase name="Given that I navigate to the game page" classname="dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games" time="3.930693424">
         </testcase>
-        <testcase name="And spela button is clicked" classname="dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games" time="2.01760483">
+        <testcase name="And spela button is clicked" classname="dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games" time="2.01885468">
         </testcase>
-        <testcase name="When I select player ‘dum bot’ against player ‘bot’" classname="dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games" time="6.147906518">
+        <testcase name="When I select player ‘dum bot’ against player ‘bot’" classname="dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games" time="6.161120096">
         </testcase>
-        <testcase name="And a series of 3 games is played between dumbot and bot" classname="dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games" time="115.63188974">
+        <testcase name="And a series of 3 games is played between dumbot and bot" classname="dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games" time="115.460993861">
         </testcase>
-        <testcase name="Then the bot wins each game" classname="dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games" time="0.001089991">
+        <testcase name="Then the bot wins each game" classname="dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games" time="0.001099093">
         </testcase>
     </testsuite>
 </testsuites>

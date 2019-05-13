@@ -14,7 +14,7 @@
             "name": "that I navigate to the game page",
             "result": {
               "status": "passed",
-              "duration": 3572427784
+              "duration": 3930693424
             },
             "line": 7,
             "match": {
@@ -27,7 +27,7 @@
             "name": "spela button is clicked",
             "result": {
               "status": "passed",
-              "duration": 2017604830
+              "duration": 2018854680
             },
             "line": 8,
             "match": {
@@ -40,7 +40,7 @@
             "name": "I select player ‘dum bot’ against player ‘bot’",
             "result": {
               "status": "passed",
-              "duration": 6147906518
+              "duration": 6161120096
             },
             "line": 9,
             "match": {
@@ -53,7 +53,7 @@
             "name": "a series of 3 games is played between dumbot and bot",
             "result": {
               "status": "passed",
-              "duration": 115631889740
+              "duration": 115460993861
             },
             "line": 10,
             "match": {
@@ -66,7 +66,7 @@
             "name": "the bot wins each game",
             "result": {
               "status": "passed",
-              "duration": 1089991
+              "duration": 1099093
             },
             "line": 11,
             "match": {
@@ -78,7 +78,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 118499522
+              "duration": 205776724
             },
             "hidden": true,
             "match": {
