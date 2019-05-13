@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="empty-gameboard;the-gameboard-should-be-empty-when-game-initiated" tests="5" failures="0" skipped="0">
+    <testsuite name="dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/javad/Desktop/4 in row/four-with-bot1/features/Regler.feature">
+            <property name="URI" value="C:/Users/javad/Desktop/4 in row/four-with-bot1/features/dumbot-vs-bot.feature">
             </property>
         </properties>
-        <testcase name="Given that i navigate to the startpage" classname="empty-gameboard;the-gameboard-should-be-empty-when-game-initiated" time="3.728962068">
+        <testcase name="Given that I navigate to the game page" classname="dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games" time="3.572427784">
         </testcase>
-        <testcase name="And I click on the spela button" classname="empty-gameboard;the-gameboard-should-be-empty-when-game-initiated" time="2.021661007">
+        <testcase name="And spela button is clicked" classname="dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games" time="2.01760483">
         </testcase>
-        <testcase name="When I fill out player details and click på Börja spela" classname="empty-gameboard;the-gameboard-should-be-empty-when-game-initiated" time="12.141845577">
+        <testcase name="When I select player ‘dum bot’ against player ‘bot’" classname="dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games" time="6.147906518">
         </testcase>
-        <testcase name="Then the game should initiate" classname="empty-gameboard;the-gameboard-should-be-empty-when-game-initiated" time="2.048010795">
+        <testcase name="And a series of 3 games is played between dumbot and bot" classname="dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games" time="115.63188974">
         </testcase>
-        <testcase name="Then board shall be empty" classname="empty-gameboard;the-gameboard-should-be-empty-when-game-initiated" time="4.030913982">
-        </testcase>
-    </testsuite>
-    <testsuite name="empty-gameboard;the-number-of-move-shall-be-1" tests="5" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:/Users/javad/Desktop/4 in row/four-with-bot1/features/Regler.feature">
-            </property>
-        </properties>
-        <testcase name="Given that i navigate to the startpage" classname="empty-gameboard;the-number-of-move-shall-be-1" time="2.784335421">
-        </testcase>
-        <testcase name="And I click on the spela button" classname="empty-gameboard;the-number-of-move-shall-be-1" time="2.040788753">
-        </testcase>
-        <testcase name="When I fill out player details and click på Börja spela" classname="empty-gameboard;the-number-of-move-shall-be-1" time="12.144486928">
-        </testcase>
-        <testcase name="Then the game should initiate" classname="empty-gameboard;the-number-of-move-shall-be-1" time="2.035046959">
-        </testcase>
-        <testcase name="Then the number of move shall be 1" classname="empty-gameboard;the-number-of-move-shall-be-1" time="2.140960386">
+        <testcase name="Then the bot wins each game" classname="dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games" time="0.001089991">
         </testcase>
     </testsuite>
 </testsuites>

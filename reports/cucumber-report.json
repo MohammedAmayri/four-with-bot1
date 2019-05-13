@@ -1,76 +1,76 @@
 [
   {
-    "description": "The gameboard should be empty when game initiated",
+    "description": "   The aim of this test is to determine whether the dumbot is less intelligent \n   or not than the normal bot in a series of 10 games of 4-in-a-row between the two.",
     "elements": [
       {
-        "id": "empty-gameboard;the-gameboard-should-be-empty-when-game-initiated",
+        "id": "dumbot-vs-bot;test-whether-dumbot-is-worse-than-bot-at-playing-4-in-a-row-in-10-games",
         "keyword": "Scenario",
-        "line": 11,
-        "name": "The gameboard should be empty when game initiated",
+        "line": 6,
+        "name": "Test whether dumbot is worse than bot at playing 4-in-a-row in 10 games",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that i navigate to the startpage",
+            "name": "that I navigate to the game page",
             "result": {
               "status": "passed",
-              "duration": 3728962068
+              "duration": 3572427784
             },
-            "line": 5,
+            "line": 7,
             "match": {
-              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:9"
+              "location": "row\\four-with-bot1\\step-definitions\\dumbot-vs-bot.js:11"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I click on the spela button",
+            "name": "spela button is clicked",
             "result": {
               "status": "passed",
-              "duration": 2021661007
+              "duration": 2017604830
             },
-            "line": 6,
+            "line": 8,
             "match": {
-              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:16"
+              "location": "row\\four-with-bot1\\step-definitions\\dumbot-vs-bot.js:16"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I fill out player details and click på Börja spela",
+            "name": "I select player ‘dum bot’ against player ‘bot’",
             "result": {
               "status": "passed",
-              "duration": 12141845577
+              "duration": 6147906518
             },
-            "line": 7,
+            "line": 9,
             "match": {
-              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:24"
+              "location": "row\\four-with-bot1\\step-definitions\\dumbot-vs-bot.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a series of 3 games is played between dumbot and bot",
+            "result": {
+              "status": "passed",
+              "duration": 115631889740
+            },
+            "line": 10,
+            "match": {
+              "location": "row\\four-with-bot1\\step-definitions\\dumbot-vs-bot.js:49"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the game should initiate",
+            "name": "the bot wins each game",
             "result": {
               "status": "passed",
-              "duration": 2048010795
+              "duration": 1089991
             },
-            "line": 8,
+            "line": 11,
             "match": {
-              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:42"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "board shall be empty",
-            "result": {
-              "status": "passed",
-              "duration": 4030913982
-            },
-            "line": 12,
-            "match": {
-              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:51"
+              "location": "row\\four-with-bot1\\step-definitions\\dumbot-vs-bot.js:124"
             }
           },
           {
@@ -78,94 +78,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 105923099
-            },
-            "hidden": true,
-            "match": {
-              "location": "row\\four-with-bot1\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "empty-gameboard;the-number-of-move-shall-be-1",
-        "keyword": "Scenario",
-        "line": 15,
-        "name": "the number of move shall be 1",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that i navigate to the startpage",
-            "result": {
-              "status": "passed",
-              "duration": 2784335421
-            },
-            "line": 5,
-            "match": {
-              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:9"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on the spela button",
-            "result": {
-              "status": "passed",
-              "duration": 2040788753
-            },
-            "line": 6,
-            "match": {
-              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:16"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I fill out player details and click på Börja spela",
-            "result": {
-              "status": "passed",
-              "duration": 12144486928
-            },
-            "line": 7,
-            "match": {
-              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:24"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the game should initiate",
-            "result": {
-              "status": "passed",
-              "duration": 2035046959
-            },
-            "line": 8,
-            "match": {
-              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:42"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the number of move shall be 1",
-            "result": {
-              "status": "passed",
-              "duration": 2140960386
-            },
-            "line": 16,
-            "match": {
-              "location": "row\\four-with-bot1\\step-definitions\\Regler.js:61"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 115350154
+              "duration": 118499522
             },
             "hidden": true,
             "match": {
@@ -177,11 +90,11 @@
         "type": "scenario"
       }
     ],
-    "id": "empty-gameboard",
+    "id": "dumbot-vs-bot",
     "keyword": "Feature",
     "line": 1,
-    "name": "Empty gameboard",
+    "name": "Dumbot vs bot",
     "tags": [],
-    "uri": "C:/Users/javad/Desktop/4 in row/four-with-bot1/features/Regler.feature"
+    "uri": "C:/Users/javad/Desktop/4 in row/four-with-bot1/features/dumbot-vs-bot.feature"
   }
 ]
